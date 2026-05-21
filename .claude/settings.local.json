@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/c/Users/juand/OneDrive/Desktop/SINGLE TENANT/barbershop-management-system\" && find . -maxdepth 3 -type f -name \"README*\" -o -name \"DEPLOYMENT*\" -o -name \"*.md\" | head -20)",
+      "Bash([ -f \"$app/views.py\" ])",
+      "Bash(wc -l \"/mnt/c/Users/juand/OneDrive/Desktop/Landing barberia/index.html\")",
+      "PowerShell(\\(Get-Content \"C:\\\\Users\\\\juand\\\\OneDrive\\\\Desktop\\\\Landing barberia\\\\index.html\" | Measure-Object -Line\\).Lines)"
+    ]
+  }
+}
